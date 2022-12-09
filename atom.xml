@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://m3devil.github.io/p-king.github.io</id>
     <title>FireRain园</title>
-    <updated>2022-12-09T13:22:57.065Z</updated>
+    <updated>2022-12-09T13:30:11.265Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://m3devil.github.io/p-king.github.io"/>
     <link rel="self" href="https://m3devil.github.io/p-king.github.io/atom.xml"/>
@@ -57,9 +57,9 @@
 <p>配置Gitee:</p>
 <figure data-type="image" tabindex="3"><img src="https://www.helloimg.com/images/2022/12/09/ZyuyCY.png" alt="image-20221203005606837" loading="lazy"></figure>
 <p>Gitee中创建Token比较简单：设置 -&gt; 安全设置中的私人令牌 -&gt; 生成新令牌</p>
-<figure data-type="image" tabindex="4"><img src="G:%5Cimages%5COVO%5C202212030059557.png" alt="image-20221203005953524" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://www.helloimg.com/images/2022/12/09/Zyyru0.png" alt="image-20221203005953524" loading="lazy"></figure>
 <p>仓库拥有者名和仓库名是仓库网页链接上的uri:</p>
-<figure data-type="image" tabindex="5"><img src="G:%5Cimages%5COVO%5C202212030105481.png" alt="image-20221203010518453" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://www.helloimg.com/images/2022/12/09/ZyyfOh.png" alt="image-20221203010518453" loading="lazy"></figure>
 <p>PicGo服务开启：</p>
 <figure data-type="image" tabindex="6"><img src="https://www.helloimg.com/images/2022/12/09/Zyy549.png" alt="image-20221203005259038" loading="lazy"></figure>
 <p>设置Typora的上传服务：</p>
@@ -127,7 +127,7 @@
 <h2 id="二级标题">二级标题</h2>
 <h3 id="三级标题">三级标题</h3>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1889974"><label class="task-list-item-label" for="task-item-1889974"> : 可勾选</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-712374"><label class="task-list-item-label" for="task-item-712374"> : 可勾选</label></li>
 </ul>
 <blockquote>
 <p>高亮引注</p>
