@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://m3devil.github.io/p-king.github.io</id>
+    <title>FireRain园</title>
+    <updated>2022-12-09T13:09:12.758Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://m3devil.github.io/p-king.github.io"/>
+    <link rel="self" href="https://m3devil.github.io/p-king.github.io/atom.xml"/>
+    <subtitle>FireRain的个人博客网站</subtitle>
+    <logo>https://m3devil.github.io/p-king.github.io/images/avatar.png</logo>
+    <icon>https://m3devil.github.io/p-king.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, FireRain园</rights>
+    <entry>
+        <title type="html"><![CDATA[免费图床简单实用的方式]]></title>
+        <id>https://m3devil.github.io/p-king.github.io/xiBvFIJej/</id>
+        <link href="https://m3devil.github.io/p-king.github.io/xiBvFIJej/">
+        </link>
+        <updated>2022-12-09T12:57:26.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="免费图床简单实用的方式">免费图床简单实用的方式</h1>
+<h2 id="一-什么是图床">一、什么是图床？</h2>
+<ol>
+<li>
+<p>图床就是将图片资源存储在互联网上的云存储空间，我们可以将自己在线网站图片资源存储在图床上，或者将自己博客中的图片存储在图床中，文章转储/发布时方便自己的博客管理。</p>
+</li>
+<li>
+<p>简单说，就是将自己的图片资源发布到云存储空间中，我们可以不同的场景中来使用自己的这些云资源。(奇思妙想：除了图片资源外的其他各种媒体资源是否也可以存储在云端，就可以随时在不同的计算机上访问自己的资源)</p>
+</li>
+<li>
+<p>日常的一个场景：<br>
+假设你在微博分享一张图片，你的粉丝可以通过互联网看到你分享的图片，那么他是去访问你的手机的相册吗？其实不是的，你分享图片，也就是把图片上传到微博的服务器，微博将为你生成一个独一无二的访问链接，这个链接指向的空间其实就是图床。</p>
+</li>
+</ol>
+<h2 id="二-一种简单使用的图床方式gitee仓库-picgo-typora">二、一种简单使用的图床方式Gitee仓库 + PicGo (+ Typora)</h2>
+<p>在当今的互联网中，图床获取的方式非常非常多、使用也简单，主要分为收费和免费，国内的访问速度快慢。<br>
+这里就介绍两种免费国内访问快的：Gitee仓库、路过图床。</p>
+<ul>
+<li>Gitee：一种用仓库存储图片资源的方式。类似的有Github,GitLab等代码仓库。</li>
+<li>路过图床：借宿在图床网站上的方式。类似的有SM.MS、imageLOL ImageHub、猫盒等等。这类图床网站托管的方式基本都是用邮箱注册一下账号之后，就能快速上手使用。</li>
+<li>还有，购买云服务商服务方式：七牛云、阿里云、腾讯云等等。这类图床服务方式能私有化的方式存储自己的资源，除非自己服务到期了或者云服务商G了，否则这些资源非常安全，非常自主化。一般图床服务比较便宜，自己搭建一个也不许要多少时间。</li>
+</ul>
+<p>Gitee仓库 + PicGo (+ Typora)配置完成后，你可以完成本机Typora编写的文件后，可以将你的md发布到博客上就能正常图片显示了。Typora更新的新功能中，图床上传服务让我们可以在编写文件的时候实时上传图片，加上Typora本身的实时渲染md语法，所以写文章就变成了一件简单直观的事儿。</p>
+<blockquote>
+<p>使用方式：</p>
+</blockquote>
+<ol>
+<li>
+<p>首先在Gitee仓库中创建一个新仓库。<a href="https://gitee.com/">Gitee</a></p>
+</li>
+<li>
+<p>下载PicGo图床工具</p>
+<p>下载地址：<a href="https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.1">PicGo Github地址</a></p>
+<p>windows系统，下拉下来直接找.exe文件安装。</p>
+<figure data-type="image" tabindex="1"><img src="https://www.helloimg.com/images/2022/12/09/ZyuhHv.png" alt="image-20221203004652808" loading="lazy"></figure>
+<p>PicGo设置：</p>
+<p>下载Gitee-smart插件：</p>
+<figure data-type="image" tabindex="2"><img src="https://www.helloimg.com/images/2022/12/09/ZyujDE.png" alt="image-20221203005158255" loading="lazy"></figure>
+<p>配置Gitee:</p>
+<figure data-type="image" tabindex="3"><img src="https://www.helloimg.com/images/2022/12/09/ZyuyCY.png" alt="image-20221203005606837" loading="lazy"></figure>
+<p>Gitee中创建Token比较简单：设置 -&gt; 安全设置中的私人令牌 -&gt; 生成新令牌</p>
+<figure data-type="image" tabindex="4"><img src="G:%5Cimages%5COVO%5C202212030059557.png" alt="image-20221203005953524" loading="lazy"></figure>
+<p>仓库拥有者名和仓库名是仓库网页链接上的uri:</p>
+<figure data-type="image" tabindex="5"><img src="G:%5Cimages%5COVO%5C202212030105481.png" alt="image-20221203010518453" loading="lazy"></figure>
+<p>PicGo服务开启：</p>
+<figure data-type="image" tabindex="6"><img src="https://www.helloimg.com/images/2022/12/09/Zyy549.png" alt="image-20221203005259038" loading="lazy"></figure>
+<p>设置Typora的上传服务：</p>
+<figure data-type="image" tabindex="7"><img src="https://www.helloimg.com/images/2022/12/09/ZyyB0X.png" alt="image-20221203005110408" loading="lazy"></figure>
+<p>PicGo图床工具简单易用摸索摸索就会了，详细的操作文档查看<a href="https://picgo.github.io/PicGo-Doc/zh/guide/#picgo-is-here">PicGo官方使用文档</a></p>
+</li>
+<li>
+<p>或者使用utools图床插件，主要是强调一个简单快速上传需要上传的图片并复制链接，从实用性来说，比PicGo少挺多功能。</p>
+<figure data-type="image" tabindex="8"><img src="https://www.helloimg.com/images/2022/12/09/ZyyChg.png" alt="image-20221203011352432" loading="lazy"></figure>
+<p>快速召唤并上传图片，可惜不能夹杂在其他的软件中被快速调用，也是插件的使命就是快速简便，功能对点，自然就有弊端。<a href="https://www.yuque.com/sbxm2a/ogaua2/py29hq">utools图床插件的官方使用文档</a>。</p>
+</li>
+</ol>
+<p>tip:第一篇应用使用博客，目的：做记录，学会表达。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello FireRain]]></title>
+        <id>https://m3devil.github.io/p-king.github.io/hello-gridea/</id>
+        <link href="https://m3devil.github.io/p-king.github.io/hello-gridea/">
+        </link>
+        <updated>2022-12-01T05:17:36.000Z</updated>
+        <content type="html"><![CDATA[<p>This is a try!</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://m3devil.github.io/p-king.github.io/about/</id>
+        <link href="https://m3devil.github.io/p-king.github.io/about/">
+        </link>
+        <updated>2022-12-01T05:17:21.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>Just Study</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>FireRain</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>编码 篮球</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p>2538506575@qq.com</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我的第一篇网站博客]]></title>
+        <id>https://m3devil.github.io/p-king.github.io/first_blog/</id>
+        <link href="https://m3devil.github.io/p-king.github.io/first_blog/">
+        </link>
+        <updated>2022-11-30T16:11:28.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="关于为什么写这篇博客">关于为什么写这篇博客</h1>
+<p>今天我发现了一个可以本地在线同步云端博客网站的软件、技术。github pages 免费云端网站平台配合着gridea使用起来非常方便又有效，在一开始配置好一些参数属性后，在本地编写着自己的文档博客，只需要点击同步按钮便可以同步到云端，其他人可以通过访问我的github改仓库的网址便可以访问半属于我的网站了，我可以在上面写着我的想法和文档，可以完美的分享我的想法，这项技术挺好的，大佬真的厉害！那我就来玩玩这个gridea的功能吧！<br>
+😃🙁😢🤐☹️😚🐮🦅🐯🐹🦉🐌🍍🍚🍪🍻🍺🍽🍗🎿🏄‍♀🥇🎫🎹🎤🚣🤼‍♀⛸🏂🏂📽📺🚬⚱️🚢⛱🛰🚉🛩♑️♒️❕❕🚭🚫🈵☣️🇮🇴🇧🇦🇩🇴🇨🇻🇧🇼🇧🇪🇦🇿🇧🇯🚩🇦🇬🏁🏁</p>
+<h1 id="首先它一定支持markdown语法">首先，它一定支持MarkDown语法</h1>
+<p>无序列表：</p>
+<ul>
+<li>香蕉</li>
+<li>苹果</li>
+</ul>
+<p>有序列表：</p>
+<ol>
+<li>Java</li>
+<li>Redis</li>
+<li>Mysql</li>
+</ol>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9340892"><label class="task-list-item-label" for="task-item-9340892"> : 可勾选</label></li>
+</ul>
+<blockquote>
+<p>高亮引注</p>
+</blockquote>
+<p><code>单词标识</code></p>
+<hr>
+<p><strong>nihao</strong></p>
+<table>
+<thead>
+<tr>
+<th>用户</th>
+<th>密码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>火羽</td>
+<td>123</td>
+</tr>
+</tbody>
+</table>
+<p>Java代码块</p>
+<pre><code class="language-java">public static void main(String[] args) {
+    System.out.println(&quot;你好，Gridea&quot;);
+}
+</code></pre>
+<p>图片<br>
+<img src="https://ts1.cn.mm.bing.net/th/id/R-C.3d8418e27365736d804553c638e9679d?rik=GbL8EY8uT3HF8A&amp;riu=http%3a%2f%2fwww.51pptmoban.com%2fd%2ffile%2f2014%2f04%2f01%2f2eea46ecb5f25567a11af329da005f85.jpg&amp;ehk=CzeDw4cXOhiAX25rFlwxnF2lTMasKapfmQroNxadMxg%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="我的图片" loading="lazy"></p>
+<p><a href="https://www.baidu.com">点击跳转百度</a><br>
+大概常用就这么多</p>
+]]></content>
+    </entry>
+</feed>
